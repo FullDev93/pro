@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human Development Podcast</title>
+    <link href="styles.css" rel="stylesheet" >
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Welcome to the Human Development Podcast</h1>
+            <p>Your weekly source of inspiration and growth for a better life</p>
+        </div>
+    </header>
+
+    <!-- Podcast Intro Section -->
+    <section id="intro">
+        <div class="container">
+            <h2>What is this Podcast About?</h2>
+            <p>This podcast is dedicated to human development, personal growth, and life strategies. We share insights on
+                how to improve your mindset, productivity, and overall life satisfaction.</p>
+            <button onclick="showPlayer()">Listen Now</button>
+        </div>
+    </section>
+
+    <!-- Podcast Player Section -->
+    <section id="player" style="display: none;">
+        <div class="container">
+            <h2>Now Playing: Episode 1 - The Power of Positive Thinking</h2>
+            <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+            <button onclick="hidePlayer()">Hide Player</button>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="container">
+            <h2>What Our Listeners Say</h2>
+            <div class="testimonial">
+                <p>"This podcast has changed my perspective on life! The practical advice and inspiring stories keep me
+                    motivated."</p>
+                <span>- Sarah L.</span>
+            </div>
+            <div class="testimonial">
+                <p>"Each episode is a gem. I’ve learned so much about personal growth and mental well-being."</p>
+                <span>- John D.</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Human Development Podcast. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#" target="_blank"><img src="images/facebook-icon.png" alt="Facebook"></a>
+                <a href="#" target="_blank"><img src="images/twitter-icon.png" alt="Twitter"></a>
+                <a href="#" target="_blank"><img src="images/instagram-icon.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
