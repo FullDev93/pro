@@ -19,7 +19,7 @@ body {
 
 /* Header */
 .header {
-    background: #0a3641;
+    background: #0a364100;
     padding: 20px;
 }
 
@@ -40,7 +40,7 @@ body {
 }
 
 .nav-menu a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
@@ -55,7 +55,7 @@ body {
     text-align: center;
     padding: 80px 20px;
     background: url('../images/checkout-hero.jpg') no-repeat center center/cover;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .checkout-title {
@@ -120,8 +120,8 @@ body {
 
 /* Footer */
 .footer {
-    background: #0a3641;
-    color: white;
+    background: #0a364100;
+    color: rgb(0, 0, 0);
     padding: 40px 20px;
     text-align: center;
 }

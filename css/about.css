@@ -9,7 +9,7 @@ body {
 
 /* Header */
 header {
-    background-color: #0a3641;
+    background-color: #0a364100;
     padding: 15px 0;
     text-align: center;
 }
@@ -50,7 +50,7 @@ header {
     text-align: center;
     padding: 60px 20px;
     background: url('../images/about-hero.jpg') no-repeat center center/cover;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .about-hero h1 {
@@ -107,8 +107,8 @@ header {
 
 /* Footer */
 footer {
-    background-color: #0a3641;
-    color: white;
+    background-color: #0a364100;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 20px 0;
     margin-top: 40px;

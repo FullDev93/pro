@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-    background-color: #0a3641;
+    background-color: #0a364100;
     padding: 20px 0;
 }
 
@@ -43,10 +43,10 @@ h3 {
 }
 
 .footer {
-    background-color: #0a3641;
+    background-color: #ffffff00;
     padding: 20px;
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-top: 40px;
 }
 

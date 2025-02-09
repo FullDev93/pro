@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-    background-color: #0a3641;
+    background-color: #f2e9e905;
     padding: 20px 0;
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 .nav-menu a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 16px;
 }
@@ -86,10 +86,10 @@ body {
 }
 
 .footer {
-    background-color: #0a3641;
+    background-color: #ffffff00;
     padding: 20px;
     text-align: center;
-    color: white;
+    color: rgb(38, 19, 19);
     margin-top: 40px;
 }
 
