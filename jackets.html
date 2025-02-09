@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our collection of high-quality jackets for every adventure.">
+    <title>RainyDays | Jackets</title>
+    <link rel="stylesheet" href="css/jackets.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3c3001c8de.js" crossorigin="anonymous"></script>
+    <script defer src="js/cart.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="header-logo"><img src="images/RainyDays_Logo3.png" alt="Rainydays logo"></a>
+            <nav class="nav">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="jackets.html">Jackets</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="nav-icon"><a href="search.html"><i class="fas fa-search"></i></a></li>
+                    <li class="nav-icon"><a href="login.html"><i class="fas fa-user"></i></a></li>
+                    <li class="nav-icon"><a href="shoppingcart.html"><i class="fas fa-shopping-cart"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="jackets-main">
+        <section class="jackets-hero">
+            <h1 class="jackets-title">Explore Our Jackets</h1>
+            <p class="jackets-subtitle">Find the perfect jacket for your next adventure.</p>
+        </section>
+
+        <section class="jackets-grid">
+            <div class="jacket-card" data-id="1" data-name="Sport Jacket" data-price="14.99">
+                <a href="products/sportjacket.html"><img src="images/sportjacket.jpg" alt="Sport Jacket in Red"></a>
+                <p>Sport Jacket - <span>€14,99</span></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="jacket-card" data-id="2" data-name="Ski Jacket" data-price="17.99">
+                <a href="products/skijacket.html"><img src="images/skijacket.jpg" alt="Ski Jacket in Black"></a>
+                <p>Ski Jacket - <span>€17,99</span></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="jacket-card" data-id="3" data-name="Winter Jacket" data-price="19.99">
+                <a href="products/winterjacket.html"><img src="images/winterjacket.jpg" alt="Winter Jacket in multicolored"></a>
+                <p>Winter Jacket - <span>€19,99</span></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="jacket-card" data-id="4" data-name="Hiking Jacket" data-price="18.99">
+                <a href="products/hikingjacket.html"><img src="images/RainyDays_Jacket5.jpg" alt="Hiking Jacket in Grey"></a>
+                <p>Hiking Jacket - <span>€18,99</span></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="jacket-card" data-id="5" data-name="Running Jacket" data-price="14.99">
+                <a href="products/runningjacket.html"><img src="images/RainyDays_Jacket2.jpg" alt="Running Jacket in Grey"></a>
+                <p>Running Jacket - <span>€14,99</span></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="jacket-card" data-id="6" data-name="Black Winter Jacket" data-price="17.99">
+                <a href="products/blackwinterjacket.html"><img src="images/RainyDays_Jacket6.jpg" alt="Winter Jacket in Black"></a>
+                <p>Winter Jacket - <span>€17,99</span></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="jacket-card" data-id="7" data-name="Multicolor Winter Jacket" data-price="19.99">
+                <a href="products/multicolorjacket.html"><img src="images/RainyDays_Jacket7.jpg" alt="Winter Jacket in Multicolor"></a>
+                <p>Winter Jacket - <span>€19,99</span></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-content">
+                <img src="images/RainyDays_Logo.png" alt="Logo" class="footer-logo">
+                <div class="footer-info">
+                    <h3 class="footer-heading">Subscribe to our newsletter</h3>
+                    <p class="footer-text">Be the first to get news about new collections, and get exclusive offers!</p>
+                    <form class="footer-form">
+                        <input type="email" class="footer-input" placeholder="Enter your email" required>
+                        <button type="submit" class="footer-button">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <p class="footer-copy">&copy; 2025 RainyDays. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

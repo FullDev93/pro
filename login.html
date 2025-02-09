@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Get in touch with Rainydays customer support.">
-    <title>RainyDays | Contact</title>
-    <link rel="stylesheet" href="css/contact.css">
+    <meta name="description" content="Log in to your RainyDays account to manage your orders and preferences.">
+    <title>RainyDays | Log in</title>
+    <link rel="stylesheet" href="css/login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -21,30 +21,25 @@
                     <li><a href="about.html">About</a></li>
                     <li><a href="jackets.html">Jackets</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <li class="nav-icon"><a href="search.html"><i class="fas fa-search"></i></a></li>
-                    <li class="nav-icon"><a href="login.html"><i class="fas fa-user"></i></a></li>
-                    <li class="nav-icon"><a href="shoppingcart.html"><i class="fas fa-shopping-cart"></i></a></li>
                 </ul>
             </nav>
         </div>
     </header>
     
-    <main class="contact-main">
-        <section class="contact-hero">
-            <h1 class="contact-title">We Are Here to Help!</h1>
-            <p class="contact-subtitle">Reach out with any questions, feedback, or concerns.</p>
-        </section>
-
-        <section class="contact-form-section">
-            <form class="contact-form">
-                <label for="name">Full Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-                <button type="submit" class="contact-button">Send</button>
+    <main class="login-main">
+        <section class="login-container">
+            <h1 class="login-title">Log in</h1>
+            <p class="login-subtitle">Enter your credentials to access your account.</p>
+            
+            <form class="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required placeholder="Enter your username">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required minlength="5" maxlength="12" placeholder="Enter your password">
+                <button type="submit" class="login-button">Log in</button>
             </form>
+            
+            <p class="signup-link">Don't have an account? <a href="signup.html">Sign up here</a>.</p>
         </section>
     </main>
     

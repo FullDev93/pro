@@ -1,0 +1,102 @@
+body {
+    font-family: 'Instrument Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.header {
+    background-color: #0a3641;
+    padding: 20px 0;
+}
+
+.header-logo img {
+    display: block;
+    margin: auto;
+    max-width: 200px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin: 0 15px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.jackets-main {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.jackets-title {
+    font-size: 36px;
+    color: #0a3641;
+}
+
+.jackets-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.jacket-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.jacket-card img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+.jacket-card p {
+    font-size: 18px;
+    color: #333;
+}
+
+.add-to-cart {
+    display: inline-block;
+    background-color: #0a3641;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.add-to-cart:hover {
+    background-color: #08506b;
+}
+
+.footer {
+    background-color: #0a3641;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+.footer-logo {
+    max-width: 150px;
+}
+
+.footer-text {
+    font-size: 14px;
+}

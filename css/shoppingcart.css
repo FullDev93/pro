@@ -1,3 +1,5 @@
+/** Stylesheet for shoppingcart.html **/
+
 /* General Styles */
 * {
     box-sizing: border-box;
@@ -50,66 +52,60 @@ body {
     text-decoration: underline;
 }
 
-/* Contact Hero Section */
-.contact-hero {
-    text-align: center;
-    padding: 80px 20px;
-    background: url('../images/contact-hero.jpg') no-repeat center center/cover;
-    color: white;
-}
-
-.contact-title {
-    font-size: 40px;
-    margin-bottom: 20px;
-}
-
-.contact-subtitle {
-    font-size: 20px;
-}
-
-/* Contact Form Section */
-.contact-form-section {
+/* Shopping Cart Section */
+.cart-main {
     display: flex;
     justify-content: center;
-    padding: 40px 20px;
+    align-items: center;
+    height: 70vh;
 }
 
-.contact-form {
+.cart-container {
+    text-align: center;
     background: white;
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 600px;
+    max-width: 500px;
 }
 
-.contact-form label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-.contact-form input,
-.contact-form textarea {
-    width: 100%;
-    padding: 10px;
+.cart-title {
+    font-size: 28px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    color: #0a3641;
 }
 
-.contact-button {
-    width: 100%;
-    padding: 10px;
-    border: none;
+.cart-subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.cart-items {
+    font-size: 18px;
+    color: #666;
+}
+
+.empty-cart {
+    font-size: 20px;
+    margin: 20px 0;
+    color: #ff6600;
+}
+
+.continue-btn {
+    display: inline-block;
+    padding: 10px 15px;
     background: #ff6600;
     color: white;
     font-size: 16px;
-    cursor: pointer;
+    border: none;
     border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
 }
 
-.contact-button:hover {
+.continue-btn:hover {
     background: #e65c00;
 }
 
@@ -117,15 +113,15 @@ body {
 .footer {
     background: #0a3641;
     color: white;
-    padding: 40px 20px;
+    padding: 20px;
     text-align: center;
 }
 
 .footer-logo {
     max-width: 150px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .footer-copy {
-    margin-top: 20px;
+    font-size: 14px;
 }

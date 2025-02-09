@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Get in touch with Rainydays customer support.">
-    <title>RainyDays | Contact</title>
-    <link rel="stylesheet" href="css/contact.css">
+    <meta name="description" content="Search for your favorite RainyDays products.">
+    <title>RainyDays | Search</title>
+    <link rel="stylesheet" href="css/search.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -21,29 +21,19 @@
                     <li><a href="about.html">About</a></li>
                     <li><a href="jackets.html">Jackets</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <li class="nav-icon"><a href="search.html"><i class="fas fa-search"></i></a></li>
-                    <li class="nav-icon"><a href="login.html"><i class="fas fa-user"></i></a></li>
-                    <li class="nav-icon"><a href="shoppingcart.html"><i class="fas fa-shopping-cart"></i></a></li>
                 </ul>
             </nav>
         </div>
     </header>
     
-    <main class="contact-main">
-        <section class="contact-hero">
-            <h1 class="contact-title">We Are Here to Help!</h1>
-            <p class="contact-subtitle">Reach out with any questions, feedback, or concerns.</p>
-        </section>
-
-        <section class="contact-form-section">
-            <form class="contact-form">
-                <label for="name">Full Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-                <button type="submit" class="contact-button">Send</button>
+    <main class="search-main">
+        <section class="search-container">
+            <h1 class="search-title">Find What You Need</h1>
+            <p class="search-subtitle">Type in the search box to find your favorite products.</p>
+            
+            <form class="search-form">
+                <input type="text" id="search" name="search" placeholder="Search for jackets, accessories, and more...">
+                <button type="submit" class="search-button">Search</button>
             </form>
         </section>
     </main>
