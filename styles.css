@@ -1,3 +1,8 @@
+/* *pkopjfrifjrifojfiorfjiofjiofjmriofjiofj3m4ofi3m4foi34f3oifn34ofin34fio3nf3o4fn34ofn? */
+#hhw{
+    font: italic small-caps bold 60px fantasy;
+    color: #27bd61;
+}
 main {
     display: flex;
     justify-content: space-around;
@@ -206,4 +211,43 @@ background: #f4000052;
         background-color: #fff;
         color: #333;
       }
+      .ttest{
+        height: 600px;
+        background-image: radial-gradient(circle, #56529b, #f40000);
+      }
+      .loader {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 5px solid #ccc;
+      }
       
+      .loader.spin {
+        border-top-color: #333;
+        animation: spin 1s linear infinite;
+        opacity: 0;
+      }
+      
+      .loader.grow {
+        animation: grow 1s linear infinite;
+        background-color: #ccc;
+      }
+      
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+          opacity: 1;
+        }
+      }
+      
+      @keyframes grow {
+        0% {
+          transform: scale(0);
+        }
+        50% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(0);
+        }
+      }
