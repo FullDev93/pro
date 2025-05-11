@@ -7,30 +7,33 @@
     <meta name="description" content="Rainydays offers high-quality jackets for outdoor.">
     <title>Rainy Days | Home</title>
     <link rel="stylesheet" href="css/home.css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div>
             <nav>
-                 <a href="index.html" class="logo"><img src="images/RainyDays_Logo3.png" alt="Rainydays logo "></a> 
-                <ul class="nav-menu">
+                 <a href="index.html" class="logo"><img src="images/RainyDays_Logo3.png" alt="Rainydays logo "></a> <div class="hamburger" id="hamburger">&#9776;</div>
+                <ul class="nav-menu" id="nav-menu">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="jackets.html">Jackets</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="search.html">Search</a></li>
-                    <li><a href="login.html">Login</a></li>
-                    <li><a href="shoppingcart.html">Shopping cart</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+                    <div class="icons-row">                  
+                    <a href="search.html" title="Search"><span class="material-icons">search</span></a> 
+                    <a href="login.html" title="Login"><span class="material-icons">person</span></a>   
+                    <a href="shoppingcart.html" title="Shopping Cart"><span class="material-icons">shopping_cart</span></a>
+                </div>   
+                </ul>    
+           </nav> 
+       </div>
+     </header>
 
     <main>
         <section class="hero">
             <h1>Pushing the Comfort Zone</h1>
-            <p>Explore our collection of durable outdoor jackets for all adventures.</p>
+            <p>Explore our collection of durable outdoor jackets for all adventures.</p> 
             <a href="jackets.html" class="btn">Shop Now</a>
         </section>
 
@@ -89,4 +92,12 @@
         </div>
     </footer>
 </body>
+<script>
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('nav-menu');
+
+    hamburger.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+    });
+</script>
 </html>
