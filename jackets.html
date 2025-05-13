@@ -6,29 +6,30 @@
     <meta name="description" content="Explore our collection of high-quality jackets for every adventure.">
     <title>RainyDays | Jackets</title>
     <link rel="stylesheet" href="css/jackets.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/3c3001c8de.js" crossorigin="anonymous"></script>
-    <script defer src="js/cart.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <div class="container header-container">
-            <a href="index.html" class="header-logo"><img src="images/RainyDays_Logo3.png" alt="Rainydays logo"></a>
-            <nav>
-                <ul class="nav-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="jackets.html">Jackets</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="search.html"><i class="fas fa-search"></i></a></li>
-                    <li><a href="login.html"><i class="fas fa-user"></i></a></li>
-                    <li><a href="shoppingcart.html"><i class="fas fa-shopping-cart"></i></a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    
+    <header>   
+         <div>        
+            <nav>           
+                 <a href="index.html" class="logo">  
+                 <img src="images/RainyDays_Logo3.png" alt="Rainydays logo"></a>   
+                  <div class="hamburger" id="hamburger">&#9776;</div>
+                  <ul class="nav-menu" id="nav-menu">    
+                  <li><a href="index.html">Home</a></li>                  
+                  <li><a href="jackets.html">Jackets</a></li>              
+                  <li><a href="contact.html">Contact</a></li>                
+                  <li><a href="about.html">About</a></li>                
+                  <div class="icons-row">    
+                  <a href="search.html" title="Search"><span class="material-icons">search</span></a>     
+                  <a href="login.html" title="Login"><span class="material-icons">person</span></a>                 
+                  <a href="shoppingcart.html" title="Shopping Cart"><span class="material-icons">shopping_cart</span></a>            
+                  </div>     
+               </ul>           
+          </nav>       
+         </div>
+</header>
     
     <main class="jackets-main">
         <section class="jackets-hero">
@@ -91,5 +92,6 @@
             <p class="footer-copy">&copy; 2025 RainyDays. All Rights Reserved.</p>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
