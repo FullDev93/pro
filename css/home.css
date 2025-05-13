@@ -1,38 +1,51 @@
 /* General Styling */
+* { 
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+}
 
+body {
+    width: 100%;
+    }
 
 /* Header */
 header {
     background-color: #ffffff;
     width: 100%;
-    padding: 15px 0;    
+    padding: 15px 0;  
 }
 
 .logo img {
 
-    height: 70px;
-    width: auto
+    height: 60px;
+    width: auto;
+   
     }
 
 .logo {  
-      margin-left: 45%; 
+      margin-left: 10%;
+       margin-top: 10px;
+    margin-right: 20px;
+    
 }
 
     nav { 
         display: flex;
         align-items: center;
-        justify-content: space-between;
         padding: 10px 30px;
         background-color: #ffffff;
-        width: 100%;
-  }
+        width: 80%;
+        position: relative;
+        box-sizing: border-box;
+}
+
 
 .nav-menu {
   list-style: none;
   display: flex;
   gap: 40px;
-  margin-right: 20%;
-  margin-left: 50px;
+  margin-left: auto;
   padding: 0px 20px;
   background-color: #EFFFF1;
   align-items: center;
@@ -98,17 +111,29 @@ header {
     color: #1c829c;
 }
 
+.nav-menu, .nav-menu a, .icons-row a {    
+    transition: all 0.3s ease-in-out;
+}
+
 @media (max-width: 768px) {
     .nav-menu {
         display: none;
         flex-direction: column;
-        width: 100%;
+        width: auto;
         background-color: #EFFFF1;
          position: absolute;
          top: 60px;
          left: 0;
         gap: 10px;
         padding: 20px;
+    }
+
+    .nav-menu a {
+        width: auto;
+        height: auto;
+        padding: 10px;
+        
+       
     }
     
     .hamburger {
@@ -130,8 +155,6 @@ header {
          margin: 0 auto;
     }
     .icons-row {
-       display: flex;
-       justify-content: left;
        gap: 15px;
        margin-top: 20px;
     }
@@ -232,8 +255,11 @@ footer {
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 40px 0;
-    margin-top: 20px;
-    height: 0px;
+    margin-top: 40px;
+    width: 100%;   
+     height: auto;
+     box-sizing: border-box;
+
 }
 
 footer form {
