@@ -45,7 +45,7 @@ header {
   gap: 40px;
   margin-left: auto;
   padding: 0px 20px;
-  background-color: #EFFFF1;
+  background-color: #EBF7F7;
   align-items: center;
   transition: transform 0.3s ease-in-out;
 }
@@ -123,7 +123,7 @@ header {
         display: none;
         flex-direction: column;
         width: auto;
-        background-color: #EFFFF1;
+        background-color: #EBF7F7;
          position: absolute;
          top: 60px;
          left: 0;

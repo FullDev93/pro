@@ -45,7 +45,7 @@ header {
   gap: 40px;
   margin-left: auto;
   padding: 0px 20px;
-  background-color: #EFFFF1;
+  background-color: #EBF7F7;
   align-items: center;
   transition: transform 0.3s ease-in-out;
 }
@@ -119,86 +119,115 @@ header {
 }
 
 @media (max-width: 768px) {
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        position: relative;
+        padding: 0 20px;
+    }
+
+    .logo {
+        margin: 0 auto;
+    }
+
+    .hamburger {
+        display: block;
+        position: absolute;
+        left: 20px;
+        z-index: 1001;
+        cursor: pointer;
+    }
+
     .nav-menu {
         display: none;
         flex-direction: column;
-        width: auto;
-        background-color: #EFFFF1;
-         position: absolute;
-         top: 60px;
-         left: 0;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #EBF7F7;
         gap: 10px;
         padding: 20px;
-         z-index: 1000;
+        z-index: 1000;
+    }
+
+    .nav-menu.active {
+        display: flex;
     }
 
     .nav-menu a {
-        width: auto;
-        height: auto;
         padding: 10px;
-        
-       
+        width: 100%;
+        text-align: left;
     }
-    
-    .hamburger {
-        display: block;
-         position: absolute;
-          left: 20px;
-          z-index: 1001;
-        }
 
-    nav {
-        display: flex;
-         align-items: center;
-        justify-content: center;
-         width: 100%;
-         position: relative;
-        padding: 0 20px;
-    }
-    
-
-    .logo {
-         margin: 0 auto;
-    }
     .icons-row {
-       gap: 15px;
-       margin-top: 20px;
+        gap: 15px;
+        margin-top: 20px;
     }
 
     .icons-row a:hover {
         background-color: #e0e0e0;
     }
-
 }
+
+
+
 /* Hero Section */
+
 .hero {
     text-align: center;
-    padding: 60px 20px;
-    background: url('../images/hero-bg.jpg') no-repeat center center/cover;
+    padding: 80px 20px;
+    background: url('../images/header-background-min1.jpg') no-repeat center center / cover;
     color: rgb(46, 25, 25);
 }
 
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 .hero h1 {
-    font-size: 40px;
+    font-size: 48px;
+    margin-bottom: 20px;
 }
 
 .hero p {
-    font-size: 20px;
+    font-size: 22px;
+    line-height: 1.6;
 }
 
 .btn {
     display: inline-block;
-    padding: 12px 20px;
+    padding: 14px 28px;
     background-color: #0a3641;
-    color: white;
+    color: #fff;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 8px;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .btn:hover {
     background-color: #06506b;
+    transform: scale(1.05);
+}
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .btn {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
 }
 
 /* New Arrivals */
