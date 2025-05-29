@@ -208,13 +208,13 @@ header {
 .empty-cart {
     font-size: 20px;
     margin: 20px 0;
-    color: #ff6600;
+    color: #0a3641;
 }
 
 .continue-btn {
     display: inline-block;
     padding: 10px 15px;
-    background: #ff6600;
+    background: #0a3641;
     color: white;
     font-size: 16px;
     border: none;
@@ -225,7 +225,7 @@ header {
 }
 
 .continue-btn:hover {
-    background: #e65c00;
+    background: #06506b;
 }
 
 /* Footer */

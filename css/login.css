@@ -220,7 +220,7 @@ header {
     padding: 10px;
     margin-top: 20px;
     border: none;
-    background: #ff6600;
+    background: #0a3641;
     color: white;
     font-size: 16px;
     cursor: pointer;
@@ -228,7 +228,7 @@ header {
 }
 
 .login-button:hover {
-    background: #e65c00;
+    background: #06506b;
 }
 
 .signup-link {
@@ -237,7 +237,7 @@ header {
 }
 
 .signup-link a {
-    color: #ff6600;
+    color: #0a3641;
     text-decoration: none;
     font-weight: bold;
 }

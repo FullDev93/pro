@@ -223,7 +223,7 @@ header {
     width: 100%;
     padding: 10px;
     border: none;
-    background: #ff6600;
+    background:#0a3641;
     color: white;
     font-size: 16px;
     cursor: pointer;
@@ -231,7 +231,7 @@ header {
 }
 
 .contact-button:hover {
-    background: #e65c00;
+    background: #06506b;
 }
 
 /* Footer */
