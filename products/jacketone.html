@@ -6,12 +6,12 @@
     <meta name="description" content="Explore the sport jacket in red. Choose your size and purchase now.">
     <title>RainyDays | Sport Jacket</title>
     <link rel="stylesheet" href="../css/products.css">
-     <link rel="icon" href="assets/favicon.ico" type="image/png">
+    <link rel="icon" href="assets/favicon.ico" type="image/png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-    
-     <header>   
+
+<header>   
          <div>        
             <nav>           
                  <a href="../index.html" class="logo">  
@@ -31,34 +31,32 @@
           </nav>       
          </div>
 </header>
-    
-    <main>
-        <div>
-            <div>
-                <img src="../images/sportjacket.jpg" alt="Sport Jacket in Red">
-            </div>
-            <div>
-                <h1>Sport Jacket - Red</h1>
-                <p><strong>Color:</strong> Red<br>
-                   <strong>Gender:</strong> Unisex</p>
-                <p>This waterproof and windproof sport jacket is perfect for running in all kinds of weather.</p>
-                <p>€140,99</p>
-                
-                <div>
-                    <label for="size">Choose size:</label>
-                    <select name="size" id="size">
-                        <option value="small">Small</option>
-                        <option value="medium">Medium</option>
-                        <option value="large">Large</option>
-                    </select>
-                </div>
-                
-                <a href="../checkout.html" class="add-to-cart">Add to Cart</a>
-            </div>
+
+<main>
+    <section class="product-details">
+        <div class="product-image">
+            <img src="../images/sportjacket.jpg" alt="Sport Jacket in Red">
         </div>
-    </main>
-    
-   <footer>
+        <div class="product-info">
+            <h1>Sport Jacket - Red</h1>
+            <p><strong>Color:</strong> Red<br>
+               <strong>Gender:</strong> Unisex</p>
+            <p class="product-description">This waterproof and windproof sport jacket is perfect for running in all kinds of weather.</p>
+            <p class="product-price">€<span>140,99</span></p>
+
+            <label for="size">Choose size:</label>
+            <select name="size" id="size">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+
+            <a href="../checkout.html" class="add-to-cart">Add to Cart</a>
+        </div>
+    </section>
+</main>
+
+ <footer>
     <div class="footer-info">
          <h3>Subscribe to our newsletter</h3>
          <p>Be the first to get news about new collections, and get exclusive offers!</p>
@@ -70,6 +68,7 @@
         <br>
         <p>&copy; 2025 RainyDays. All Rights Reserved.</p>
 </footer>
-    <script src="../script.js"></script>
+
+<script src="../script.js"></script>
 </body>
 </html>
